@@ -22,8 +22,8 @@ from pypdf import PdfReader
 # Config
 # --------------------------------------------------------------------------- #
 DEFAULT_MODELS = [
-    "openai/gpt-oss-20b";
- "openai/gpt-oss-120b";
+    "openai/gpt-oss-20b",
+ "openai/gpt-oss-120b",
 ]
 MAX_RESUME_CHARS = 12000   # keep prompt size safe for the model
 MAX_JD_CHARS = 5000
